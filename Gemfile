@@ -28,7 +28,7 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'devise', '~> 4.7', '>= 4.7.3'
-gem 'rake', '~> 13.0', '>= 13.0.3'
+
 
 gem 'capistrano', '~> 3.11'
 gem 'capistrano-rails', '~> 1.4'
@@ -48,7 +48,7 @@ end
 
 group :production do
   gem 'pg', '~> 1.2', '>= 1.2.3'
-  gem 'therubyracer'
+  
 end
 
 
